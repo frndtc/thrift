@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frndtc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#shoes">Shoes</a></li>
+                <li><a href="#tshirts">T-Shirts</a></li>
+                <li><a href="#hoodies">Hoodies</a></li>
+                <li><a href="#joggers">Joggers</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="shoes" class="product-category">
+            <h2>Shoes</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/706d5be6-69d5-450c-b257-0463e5e50b83/air-jordan-6-retro-white-black-mens-shoes-Wk71GJ.png" alt="Shoe Image">
+                    <h3>Product Name</h3>
+                    <p>$99.99</p>
+                </div>
+                <!-- Repeat for more products -->
+                 
+            </div>
+        </section>
+
+        <section id="tshirts" class="product-category">
+            <h2>T-Shirts</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="T-Shirt Image">
+                    <h3>Product Name</h3>
+                    <p>$29.99</p>
+                </div>
+                <!-- Repeat for more products -->
+            </div>
+        </section>
+
+        <section id="hoodies" class="product-category">
+            <h2>Hoodies</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.stockx.com/images/Fear-of-God-Essentials-Hoodie-Silver-Cloud.jpg?fit=fill&bg=FFFFFF&w=140px&h=75px&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1697670882&q=60" alt="Hoodie Image">
+                    <h3>Fear of God<br>Essentials Hoodie Silver Cloud</h3>
+                    <p>$49.99</p>
+                </div>
+                <!-- Repeat for more products -->
+            </div>
+        </section>
+
+        <section id="joggers" class="product-category">
+            <h2>Joggers</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Joggers Image">
+                    <h3>Product Name</h3>
+                    <p>$39.99</p>
+                </div>
+                <!-- Repeat for more products -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Shop. All rights reserved.</p>
+    </footer>
+
+    <!-- Lightbox Modal Structure -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <span class="close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+        <div class="lightbox-controls">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
